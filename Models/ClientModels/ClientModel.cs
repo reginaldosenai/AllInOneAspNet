@@ -14,7 +14,8 @@ public class ClientModel
     public int id { get; set; }
     
     [Required]
-    [MaxLength(90)]
+    [MaxLength(80)]
+
     [Column("Username")]
     public string username { get; set; }
     
