@@ -22,4 +22,8 @@ public class ClientModel
     [Required]
     [Column("CreatedBy")]
     public UserModel createdBy { get; set; }
+
+        [Required]
+    [Column("CliIdade")]
+    public UserModel CliIdade { get; set; }
 }
